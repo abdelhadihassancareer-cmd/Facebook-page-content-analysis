@@ -2,9 +2,9 @@
 
 ## Overview
 
-This project analyzes Facebook page content performance using **Microsoft Power BI**. The goal is to understand how different types of content perform, identify audience engagement patterns, and provide useful insights for better content planning and decision-making.
+This project analyzes Facebook page content performance using **Microsoft Power BI**. The goal is to understand how different types of content perform, identify audience engagement patterns, and present useful insights through data visualization.
 
-The project includes data preparation, analysis, visualization, and an interactive Power BI report.
+The project focuses on data preparation, analysis, visualization, and interpretation of Facebook content performance.
 
 ## Objectives
 
@@ -13,27 +13,25 @@ The project includes data preparation, analysis, visualization, and an interacti
 * Identify content types that generate stronger audience engagement.
 * Analyze available audience characteristics.
 * Examine trends in reach, reactions, comments, shares, and other available metrics.
-* Present the results through clear and interactive Power BI dashboards.
+* Present the findings through clear and interactive Power BI dashboards.
 
 ## Tools Used
 
 * **Microsoft Power BI** – Data modeling, analysis, DAX measures, and visualization.
 * **Microsoft Excel** – Data preparation and organization.
-* **CSV / Excel** – Data storage and structured datasets.
+* **CSV / Excel** – Structured data preparation.
 
 ## Dataset
 
-The main dataset used for the content analysis is:
+The main dataset used for the analysis was organized into a structured table named:
 
 **`facebook content unified data`**
 
-The dataset was organized into a structured format suitable for analysis and visualization in Power BI.
+The data was prepared and structured to make it suitable for analysis and visualization in Power BI.
 
-It contains information about Facebook content and its performance, including available metrics related to reach, engagement, reactions, comments, shares, and other audience interactions.
+The analysis includes available metrics related to Facebook content performance and audience interaction, such as reactions, comments, shares, reach, and other engagement metrics.
 
 ## Analysis
-
-The Power BI report focuses on several areas:
 
 ### Content Performance
 
@@ -62,7 +60,7 @@ Analysis of performance trends over time to identify changes and patterns in con
 
 ## Key Questions
 
-The report helps answer questions such as:
+The analysis helps answer questions such as:
 
 * Which content formats perform best?
 * Which posts receive the highest engagement?
@@ -73,7 +71,7 @@ The report helps answer questions such as:
 
 ## Data Preparation
 
-The data was prepared and structured before being imported into Power BI.
+The data was prepared and structured before being analyzed in Power BI.
 
 The preparation process included:
 
@@ -81,38 +79,21 @@ The preparation process included:
 * Standardizing column names and values.
 * Preparing fields for analysis and visualization.
 * Structuring performance metrics for consistent comparison.
-* Preparing the dataset for Power BI analysis and visualizations.
+* Preparing the data for Power BI analysis and visualizations.
 
-## Power BI Dashboard
+## Power BI Report
 
-The interactive Power BI report allows users to explore Facebook page performance through different visuals, filters, and comparisons.
+The analysis was developed using **Microsoft Power BI** and presented through an interactive dashboard.
 
-Users can analyze content performance, engagement, audience information, and trends over time.
+Due to data-sharing and confidentiality considerations, the original **Power BI `.pbix` file is not included in this public repository**.
+
+Selected screenshots and the final report are provided instead to demonstrate the analysis and dashboard design.
 
 ## Project Outcome
 
-This project demonstrates the use of **data preparation, data analysis, Power BI, data visualization, and analytical thinking** to transform Facebook page data into an interactive performance report.
+This project demonstrates the use of **data preparation, data analysis, Power BI, data visualization, and analytical thinking** to transform Facebook page data into an interactive performance analysis.
 
-The analysis provides a clear view of content performance and audience engagement and can support more informed content planning and decision-making.
-
-## Repository Structure
-
-```text
-Facebook-Content-Performance-Analysis/
-│
-├── README.md
-│
-├── Power BI/
-│   └── Facebook Content Performance Analysis.pbix
-│
-├── Data/
-│   └── facebook content unified data.xlsx
-│
-└── Report/
-    └── Facebook Content Performance Analysis.pdf
-```
-
-> File names and folders may vary depending on the final repository structure.
+The results provide a clearer view of content performance and audience engagement and can support more informed content planning and decision-making.
 
 ## Author
 
