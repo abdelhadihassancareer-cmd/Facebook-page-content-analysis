@@ -127,8 +127,8 @@ Raw datasets are not included.
 Confidential business information is not published.
 Only non-sensitive dashboard visuals and project documentation are shared.
 The project demonstrates the analytical methodology without exposing the underlying company data.
-👤 Project Focus
 
+👤 Project Focus:
 This project demonstrates practical skills in:
 
 Data cleaning
