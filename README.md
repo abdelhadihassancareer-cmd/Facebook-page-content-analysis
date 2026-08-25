@@ -7,7 +7,7 @@ This project analyzes the performance of a Facebook Page over a three-month peri
 
 The project focuses on transforming and preparing raw Facebook performance data into a structured dataset, then building an interactive dashboard to monitor key performance indicators, audience activity, content consumption, and engagement trends.
 
-Note: The underlying dataset belongs to a company and cannot be publicly shared due to confidentiality restrictions. Therefore, the raw data is intentionally excluded from this repository.
+Note: The underlying dataset belongs to a company and cannot be publicly shared due to confidentiality restrictions. Therefore, the raw data and the .pbix file is intentionally excluded from this repository.
 
 🎯 Objectives
 
@@ -24,7 +24,7 @@ Identify notable performance patterns and areas that may require further investi
 🛠️ Tools & Technologies
 Power BI Desktop — Data modeling, analysis, and dashboard development
 Power Query — Data preparation and transformation
-Microsoft Excel / CSV — Source data organization and preparation
+CSV — Source data organization and preparation
 DAX — Measures and analytical calculations where required
 🔄 Data Preparation Process
 
