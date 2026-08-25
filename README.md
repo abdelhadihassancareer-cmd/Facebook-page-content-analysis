@@ -62,11 +62,8 @@ Analysis of performance trends over time to identify changes and patterns in con
 
 The analysis helps answer questions such as:
 
-* Which content formats perform best?
 * Which posts receive the highest engagement?
 * How does content performance change over time?
-* Which types of content attract more audience interaction?
-* What audience characteristics can be identified from the available data?
 * Which content strategies appear to perform better based on the available metrics?
 
 ## Data Preparation
