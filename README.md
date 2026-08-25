@@ -1,146 +1,119 @@
-# Facebook-page-content-analysis
-Three-month Facebook Page performance analysis using Power BI, covering data cleaning, transformation, KPI analysis, trend analysis, and interactive dashboard development.
-Facebook Page Content Analysis — Power BI
-📊 Project Overview
+# Facebook Content Performance Analysis
 
-This project analyzes the performance of a Facebook Page over a three-month period using Microsoft Power BI.
+## Overview
 
-The project focuses on transforming and preparing raw Facebook performance data into a structured dataset, then building an interactive dashboard to monitor key performance indicators, audience activity, content consumption, and engagement trends.
+This project analyzes Facebook page content performance using **Microsoft Power BI**. The goal is to understand how different types of content perform, identify audience engagement patterns, and provide useful insights for better content planning and decision-making.
 
-Note: The underlying dataset belongs to a company and cannot be publicly shared due to confidentiality restrictions. Therefore, the raw data and the .pbix file is intentionally excluded from this repository.
+The project includes data preparation, analysis, visualization, and an interactive Power BI report.
 
-🎯 Objectives
+## Objectives
 
-The main objectives of this project were to:
+* Analyze Facebook content performance over time.
+* Compare performance across different content formats.
+* Identify content types that generate stronger audience engagement.
+* Analyze available audience characteristics.
+* Examine trends in reach, reactions, comments, shares, and other available metrics.
+* Present the results through clear and interactive Power BI dashboards.
 
-Consolidate Facebook performance data from multiple sources.
-Clean and organize the dataset for analysis.
-Review and handle missing values.
-Prepare and standardize analytical fields.
-Apply appropriate aggregations to performance metrics.
-Analyze performance trends over time.
-Build a clear and management-friendly Power BI dashboard.
-Identify notable performance patterns and areas that may require further investigation.
-🛠️ Tools & Technologies
-Power BI Desktop — Data modeling, analysis, and dashboard development
-Power Query — Data preparation and transformation
-CSV — Source data organization and preparation
-DAX — Measures and analytical calculations where required
-🔄 Data Preparation Process
+## Tools Used
 
-The data preparation workflow consisted of the following steps:
+* **Microsoft Power BI** – Data modeling, analysis, DAX measures, and visualization.
+* **Microsoft Excel** – Data preparation and organization.
+* **CSV / Excel** – Data storage and structured datasets.
 
-1. Data Consolidation
+## Dataset
 
-Relevant Facebook performance data was combined into a unified analytical dataset.
+The main dataset used for the content analysis is:
 
-The main Power BI table used in the report is:
+**`facebook content unified data`**
 
-Facebook Content Unified Data
+The dataset was organized into a structured format suitable for analysis and visualization in Power BI.
 
-2. Data Cleaning
+It contains information about Facebook content and its performance, including available metrics related to reach, engagement, reactions, comments, shares, and other audience interactions.
 
-The dataset was reviewed for:
+## Analysis
 
-Missing values
-Inconsistent data types
-Date fields
-Numeric performance fields
-Column structure and naming
-3. Data Transformation
+The Power BI report focuses on several areas:
 
-The required fields were prepared and standardized so they could be used consistently within Power BI.
+### Content Performance
 
-4. Aggregation
+Analysis of how individual posts and different content types perform based on available performance metrics.
 
-Performance metrics were aggregated according to their intended use in the dashboard.
+### Engagement Analysis
 
-The current dashboard uses SUM aggregations for the displayed KPI and chart metrics.
+Comparison of audience interactions, including:
 
-📈 Dashboard
+* Reactions
+* Comments
+* Shares
+* Other available engagement metrics
 
-The dashboard provides an overview of the Facebook Page's performance through KPI cards and visual trend analysis.
+### Content Format Analysis
 
-Key KPIs
-Metric	Dashboard Value
-Reactions	143K
-Profile Visits	135K
-Followers	77K
-Link Clicks	80
-Views	~5.9M
-Viewers	~3.8M
-Main Visualizations
-Reactions & Profile Visits
+Comparison of different content formats to identify which formats receive stronger audience interaction.
 
-A daily trend chart is used to compare reactions and profile visits throughout the analysis period.
+### Audience Analysis
 
-This helps identify:
+Analysis of available audience data to understand audience characteristics and identify important audience segments.
 
-Performance spikes
-Periods of increased audience activity
-Changes in engagement over time
-Dates that may require further content-level investigation
-Views & Viewers
+### Time-Based Analysis
 
-A comparison of total views and viewers provides an overview of content consumption during the analysis period.
+Analysis of performance trends over time to identify changes and patterns in content performance.
 
-🔎 Key Insights
+## Key Questions
 
-The dashboard highlights several important observations:
+The report helps answer questions such as:
 
-The Page generated a high volume of content views during the analyzed period.
-Reactions and profile visits experienced noticeable spikes on specific dates.
-Performance was not evenly distributed throughout the period, suggesting that certain publishing dates or content types may have contributed disproportionately to overall activity.
-Link clicks were relatively low compared with the volume of views and other engagement metrics.
-Further post-level analysis would help determine which content formats, topics, or publishing times contributed to the strongest performance.
-💡 Recommended Next Steps
+* Which content formats perform best?
+* Which posts receive the highest engagement?
+* How does content performance change over time?
+* Which types of content attract more audience interaction?
+* What audience characteristics can be identified from the available data?
+* Which content strategies appear to perform better based on the available metrics?
 
-Future analysis could extend the dashboard by adding:
+## Data Preparation
 
-Content type analysis
-Post-level performance
-Engagement rate
-Click-through rate
-Performance by publishing time
-Performance by content topic
-Top-performing posts
-Monthly performance comparison
-Interactive date and content-type filters
+The data was prepared and structured before being imported into Power BI.
 
-These additions would make it possible to move from descriptive performance reporting toward deeper content-performance analysis.
+The preparation process included:
 
-⚠️ Data Considerations
+* Organizing the source data into structured tables.
+* Standardizing column names and values.
+* Preparing fields for analysis and visualization.
+* Structuring performance metrics for consistent comparison.
+* Preparing the dataset for Power BI analysis and visualizations.
 
-Some Facebook metrics require careful interpretation depending on how they are provided in the original export.
+## Power BI Dashboard
 
-For example, if Followers or Viewers represent daily snapshots rather than incremental daily activity, summing the values across multiple days may overstate the actual period-level figure.
+The interactive Power BI report allows users to explore Facebook page performance through different visuals, filters, and comparisons.
 
-Therefore, metric definitions should be validated against the original Facebook reporting definitions before using cumulative audience metrics as formal business KPIs.
+Users can analyze content performance, engagement, audience information, and trends over time.
 
-🔐 Confidentiality
+## Project Outcome
 
-The raw Facebook Page data used in this project is company-owned and cannot be publicly distributed.
+This project demonstrates the use of **data preparation, data analysis, Power BI, data visualization, and analytical thinking** to transform Facebook page data into an interactive performance report.
 
-For this reason:
+The analysis provides a clear view of content performance and audience engagement and can support more informed content planning and decision-making.
 
-Raw datasets are not included.
-Confidential business information is not published.
-Only non-sensitive dashboard visuals and project documentation are shared.
-The project demonstrates the analytical methodology without exposing the underlying company data.
+## Repository Structure
 
-👤 Project Focus:
-This project demonstrates practical skills in:
+```text
+Facebook-Content-Performance-Analysis/
+│
+├── README.md
+│
+├── Power BI/
+│   └── Facebook Content Performance Analysis.pbix
+│
+├── Data/
+│   └── facebook content unified data.xlsx
+│
+└── Report/
+    └── Facebook Content Performance Analysis.pdf
+```
 
-Data cleaning
-Data transformation
-Data consolidation
-Data analysis
-Power BI
-Power Query
-Dashboard design
-KPI development
-Trend analysis
-Business-oriented data visualization
-📄 Project Documentation
+> File names and folders may vary depending on the final repository structure.
 
-A detailed project report is included in the docs. It provides additional information about the data preparation process, aggregation approach, dashboard design, analytical findings, and recommendations.
+## Author
+
+**Abdelhadi Hassan**
